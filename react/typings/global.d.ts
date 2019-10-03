@@ -1,3 +1,9 @@
 interface Window extends Window {
-  dataLayer: any[]
+  _st_account: string
+  _cv_data: CVData
+}
+
+interface CVData {
+  order_id: string
+  valor: string
 }
